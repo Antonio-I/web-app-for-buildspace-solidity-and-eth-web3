@@ -1,4 +1,6 @@
-# buildspace Wave Portal 👋 
+# buildspace Wave Portal Tutorial - reworked it as Idea Central.
+
+Original guide below on how to get started.
 
 ### **Welcome!**
 To get started with this course, clone this repo and follow these commands:

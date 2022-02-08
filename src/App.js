@@ -4,7 +4,7 @@ import './App.css';
 
 export default function App() {
 
-  const wave = () => {
+  const ideaAction = () => {
     
   }
   
@@ -20,7 +20,7 @@ export default function App() {
         Hey! Connect your Ethereum wallet and share your ideas!
         </div>
 
-        <button className="waveButton" onClick={wave}>
+        <button className="ideaButton" onClick={ideaAction}>
           Share an idea
         </button>
       </div>
