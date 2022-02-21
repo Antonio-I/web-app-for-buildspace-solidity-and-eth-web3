@@ -97,16 +97,16 @@ const App = () => {
         </div>
 
         <div className="bio">
-        Hey! Connect your Ethereum wallet and share your ideas!
+          Share your idea with others!
         </div>
 
-        <form className="ideaButton" onSubmit={idea}>
+        {currentAccount && (<form className="ideaButton" onSubmit={idea}>
           <label>
-            <div className="bio"> Share an idea! </div>
-            <input type="text" name="name" value={ideaText} onChange={e => setIdeaText(e.target.value)}/>
+            <input type="text" name="name" placeholder="super cool idea" value={ideaText} onChange={e => setIdeaText(e.target.value)}/>
           </label>
           <input type="submit" value="Share"/>
-        </form>
+          </form>
+        )}
 
         {!currentAccount && (
           <div className="bio">

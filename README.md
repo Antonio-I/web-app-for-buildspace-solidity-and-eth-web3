@@ -1,6 +1,8 @@
 # buildspace Wave Portal Tutorial 👋 
 
-Reworked it as Idea Central 💡, original guide below on how to get started.
+Reworked it as 💡 Idea Central, see here: https://web-app-for-buildspace-solidity-and-eth-web3.antonio-i.repl.co/
+
+Original guide below on how to get started.
 
 ### **Welcome!**
 To get started with this course, clone this repo and follow these commands:
